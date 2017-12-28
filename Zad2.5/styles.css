@@ -1,0 +1,45 @@
+#app {
+    width: 700px;
+    margin: 20px;
+}
+.contactForm {
+    margin: 10px;
+    padding: 5px;
+    border: 1px lightgrey solid;
+    border-radius: 5px;
+}
+.contactForm input {
+    display: inline-block;
+    width: 250px;
+    margin: 5px;
+    border: none;
+    border-bottom: 1px lightgrey solid;
+}
+.contactForm button {
+    float: right;
+    padding: 7px;
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 5px;
+}
+.contactItem {
+    background-color: #F2F2F2;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.contactList {
+    padding: 0;
+}
+.contactImage {
+    float: left;
+    width: 80px;
+    margin-right: 20px;
+}
+.contactLabel {
+    margin: 10px;
+}
+.contactEmail {
+    text-decoration: none;
+    color: grey;
+}
