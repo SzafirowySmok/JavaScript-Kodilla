@@ -23,7 +23,7 @@ var movies = [
         desc: 'Film o superbohaterach',
         poster: 'Avengers.jpg'
     }
-]
+];
 var moviesElement = movies.map(function(movie) {
     return React.createElement('li', {key: movie.id},
         React.createElement('h2', {}, movie.title),
