@@ -15,6 +15,10 @@ const average = (...numbers) => {
 };
 console.log(average(2,3,4,5,6,7));
 
+//Zadanie 3 II wersja
+const average = (...numbers) => numbers.reduce((p, c) => p + c)/numbers.length;
+console.log(average(2,3,4,5,6,7));
+
 // Zadanie 4
 const grades = [1, 5, 5, 5, 4, 3, 3, 2, 1]; 
 console.log(average(...grades));
