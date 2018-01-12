@@ -1,0 +1,13 @@
+.controls, .stopwatch {
+    margin: auto;
+    padding: 10px;
+    width: 250px;
+    background-color: darkblue;
+}
+.button, .stopwatch {
+    font-size: 30px;
+    padding: 10px;
+    text-decoration: none;
+    color: lightblue;
+    text-align: center;
+}
