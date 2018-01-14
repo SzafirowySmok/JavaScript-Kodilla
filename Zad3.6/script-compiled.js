@@ -48,7 +48,7 @@ var Stopwatch = function () {
     }, {
         key: 'step',
         value: function step() {
-            if (!this.running) raturn;
+            if (!this.running) return;
             this.calculate();
             this.print();
         }

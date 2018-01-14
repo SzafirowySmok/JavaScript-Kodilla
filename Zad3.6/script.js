@@ -25,7 +25,7 @@ class Stopwatch {
         }
     }
     step() {
-        if (!this.running) raturn;
+        if (!this.running) return;
         this.calculate();
         this.print();
     }
@@ -51,13 +51,13 @@ class Stopwatch {
 }
 const stopwatch = new Stopwatch(document.querySelector('.stopwatch'));
 
-var startButton = document.getElementById('start');
+const startButton = document.getElementById('start');
 startButton.addEventListener('click', () => stopwatch.start());
 
-var stopButton = document.getElementById('stop');
+const stopButton = document.getElementById('stop');
 stopButton.addEventListener('click', () => stopwatch.stop());
 
-var resetButton = document.getElementById('reset');
+const resetButton = document.getElementById('reset');
 resetButton.addEventListener('click', () => stopwatch.resetWatch());
 
 function pad0(value) {
