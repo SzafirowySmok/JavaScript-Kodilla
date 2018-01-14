@@ -14,8 +14,8 @@ App = React.createClass({
                 xhr.open('GET', url);
                 xhr.onload = function() {
                     if (this.status === 200) {
-                        var data = JSON.parse(xhr.responseText).data;
-                        var gif = {url: data.fixed_width_downsampled_url,
+                        const data = JSON.parse(xhr.responseText).data;
+                        const gif = {url: data.fixed_width_downsampled_url,
                         sourceUrl: data.url};
                         resolve(gif);
                     } else {
@@ -41,7 +41,7 @@ App = React.createClass({
         }.bind(this));
     },
     render: function() {
-        var styles = {
+        const styles = {
             margin: '0 auto',
             textAlign: 'center',
             width: '90%'
