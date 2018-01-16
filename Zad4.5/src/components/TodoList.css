@@ -1,0 +1,21 @@
+.TodoList {
+    background-color: lightcoral;
+    width: 30vw;
+    height: 50vh;
+    border: 1px solid lightcoral;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+    margin: 0;
+    padding: 0;
+}
+.TodoList li {
+    padding: 10px;
+    background-color: moccasin;
+    border-radius: 5px;
+    list-style-type: none;
+    margin: 5px;
+}
