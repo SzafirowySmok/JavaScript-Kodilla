@@ -1,0 +1,20 @@
+.TodoForm {
+    background-color: lightcoral;
+    margin: 5px;
+    padding: 5px;
+}
+
+.TodoForm input {
+    border: none;
+    border-radius: 3px;
+    background-color: moccasin;
+    padding: 5px;
+}
+.TodoForm button {
+    width: 50px;
+    color: moccasin;
+    background-color: lightcoral;
+    border: 1px solid moccasin;
+    margin: 5px 10px;
+    padding: 3px;
+}

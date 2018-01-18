@@ -1,0 +1,17 @@
+.Todo {
+    padding: 10px;
+    background-color: moccasin;
+    border-radius: 5px;
+    list-style-type: none;
+    margin: 5px;
+    position: relative;
+}
+.Todo button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 1px solid moccasin;
+    background-color: lightcoral;
+    color: moccasin;
+
+}
