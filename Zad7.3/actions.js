@@ -18,7 +18,6 @@ function editComment(text, id) {
     return {
         type: EDIT_COMMENT,
         text,
-        votes,
         id
     }
 }
