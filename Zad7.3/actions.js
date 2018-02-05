@@ -18,27 +18,27 @@ function editComment(text, id) {
     return {
         type: EDIT_COMMENT,
         text: text,
-        id
+        id: id
     }
 }
 
 function removeComment(id) {
     return {
         type: REMOVE_COMMENT,
-        id
+        id: id
     }
     
 }
 function thumbUp(id) {
     return {
         type: THUMB_UP_COMMENT,
-        id
+        id: id
     }
 }
 
 function thumbDown(id) {
     return {
         type: THUMB_DOWN_COMMENT,
-        id
+        id: id
     }
 }
